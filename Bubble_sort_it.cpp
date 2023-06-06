@@ -14,6 +14,6 @@ void bubble_it(int vet[], int n){
             }
         }
 	}
-} //Complexidade O(n^2) no pior caso.
+} 
 
 
