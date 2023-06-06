@@ -14,12 +14,11 @@ void selection_sortIt(int vet[], int n)
 		int t = i;
 		for (int j = i + 1; j < n; j++)
 		{
-			if (vet[j] < vet[t]){
-                t = j;
-            }
-				
+		    if (vet[j] < vet[t])
+                    t = j;
+                    
 		}
-       swap(vet,t,i);
-	}
+                 swap(vet,t,i);
+        }
 
 }
