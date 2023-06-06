@@ -9,9 +9,9 @@ void insertion_saortit(int vet[], int n)
 		int j = i - 1;
 		while (j >= 0 && vet[j] > aux)
 		{
-			vet[j + 1] = vet[j];
-			--j;
+		    vet[j + 1] = vet[j];
+		    --j;
 		}
-		vet[j + 1] = aux;
+		    vet[j + 1] = aux;
 	}
 }
